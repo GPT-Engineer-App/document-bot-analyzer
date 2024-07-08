@@ -127,6 +127,40 @@ const Index = () => {
         </div>
       </section>
 
+      {/* NFT Gallery Section */}
+      <section className="container mx-auto px-4">
+        <h2 className="text-3xl font-bold text-center mb-8 animate-section-title">NFT Gallery</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <Card className="animate-card">
+            <img src="/images/nft-monkey-1.png" alt="NFT Monkey 1" className="mx-auto object-cover w-full h-[200px]" />
+            <CardHeader>
+              <CardTitle>NFT Monkey 1</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>Description of NFT Monkey 1.</p>
+            </CardContent>
+          </Card>
+          <Card className="animate-card">
+            <img src="/images/nft-monkey-2.png" alt="NFT Monkey 2" className="mx-auto object-cover w-full h-[200px]" />
+            <CardHeader>
+              <CardTitle>NFT Monkey 2</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>Description of NFT Monkey 2.</p>
+            </CardContent>
+          </Card>
+          <Card className="animate-card">
+            <img src="/images/nft-monkey-3.png" alt="NFT Monkey 3" className="mx-auto object-cover w-full h-[200px]" />
+            <CardHeader>
+              <CardTitle>NFT Monkey 3</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>Description of NFT Monkey 3.</p>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8 animate-section-title">Contact</h2>
