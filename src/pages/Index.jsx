@@ -110,7 +110,8 @@ const Index = () => {
             <img src="/placeholder.svg" alt="placeholder" className="mx-auto object-cover w-full h-[200px]" />
             <CardHeader>
               <CardTitle>Mike Johnson</CardTitle>
-              <p>Lead Developer</CardHeader>
+              <p>Lead Developer</p>
+            </CardHeader>
             <CardContent>
               <p>Short bio of Mike Johnson.</p>
             </CardContent>
